@@ -1,4 +1,3 @@
-// @ts-nocheck
 const videoElement = document.getElementById('webcam');
 const actionBtn = document.getElementById('actionBtn');
 const resultsCard = document.getElementById('resultsCard');
@@ -65,3 +64,4 @@ actionBtn.addEventListener('click', () => {
         actionBtn.innerText = "RE-SCAN BIOMETRICS";
     }, 2000);
 });
+

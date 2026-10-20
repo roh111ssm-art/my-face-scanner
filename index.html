@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro AI Face Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://jsdelivr.net" crossorigin="anonymous"></script>
+    <script src="https://jsdelivr.net" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">THE <span>FACE</span> SCANNER</div>
+            <p class="subtitle">AI Biometric Symmetry & Styling Analytics</p>
+        </header>
+        <div class="camera-wrapper">
+            <video id="webcam" autoplay playsinline></video>
+            <div class="face-oval"><div class="scanning-laser"></div></div>
+        </div>
+        <button id="actionBtn">INITIALIZING AI MESH...</button>
+        <div id="resultsCard" class="results-card hidden">
+            <div class="card-header">
+                <h3>SCAN SUMMARY</h3>
+                <span id="scoreBadge" class="badge">81/100 GLOW UP</span>
+            </div>
+            <div class="metric-group">
+                <div class="metric">
+                    <div class="metric-label"><span>Facial Symmetry Balance</span><strong id="symText">0%</strong></div>
+                    <div class="bar-container"><div id="symmetryBar" class="bar"></div></div>
+                </div>
+                <div class="metric-grid">
+                    <div class="grid-box"><span class="box-title">FACIAL GEOMETRY</span><div id="shapeResult" class="box-value">--</div></div>
+                    <div class="grid-box"><span class="box-title">RECOMMENDED STYLING</span><div id="hairResult" class="box-value">--</div></div>
+                </div>
+            </div>
+            <p class="privacy-notice">🛡️ Private Scan: Processing executed purely on-device.</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+                  </html>
+                  
